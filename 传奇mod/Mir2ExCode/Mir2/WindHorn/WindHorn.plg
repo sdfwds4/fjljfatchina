@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: WindHorn - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2AC.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/WindHorn.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\RegHandler.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\WHDefProcess.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\WHDXGraphic.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\WHImage.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\WHSurface.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\WHWilImage.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\WHWilTexture.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\WHWindow.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\D3DCommon\d3dmath.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\D3DCommon\d3dtextr.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\D3DCommon\d3dutil.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\D3DCommon\ddutil.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2AC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2AD.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/WindHorn.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2AD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2AE.tmp" with contents
+[
+/nologo /out:"Release\WindHorn.lib" 
+".\Release\RegHandler.obj"
+".\Release\StdAfx.obj"
+".\Release\WHDefProcess.obj"
+".\Release\WHDXGraphic.obj"
+".\Release\WHImage.obj"
+".\Release\WHSurface.obj"
+".\Release\WHWilImage.obj"
+".\Release\WHWilTexture.obj"
+".\Release\WHWindow.obj"
+".\Release\d3dmath.obj"
+".\Release\d3dtextr.obj"
+".\Release\d3dutil.obj"
+".\Release\ddutil.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2AE.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+E:\mir3_sf\传奇COD\传奇COD1\112347628\Mir2ExCode\Mir2\WindHorn\WHEngine.h(19) : fatal error C1083: Cannot open include file: 'dshow.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+WindHorn.lib - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

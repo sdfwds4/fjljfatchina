@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameGate", "mirserver\GameGate\GameGate.vcproj", "{203CB372-0747-46BB-A1C9-9ABD2DB249B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoginGate", "mirserver\LoginGate\LoginGate.vcproj", "{92271E44-6D97-41BD-BE34-E99100E31F7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoginSvr", "mirserver\LoginSvr\LoginSvr.vcproj", "{DD48D723-A6DC-4C5D-A82F-ED97CE51D3AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelGate", "mirserver\SelGate\SelGate.vcproj", "{21B005A0-975D-4941-BFEF-CD4616571AF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{203CB372-0747-46BB-A1C9-9ABD2DB249B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{203CB372-0747-46BB-A1C9-9ABD2DB249B2}.Debug|Win32.Build.0 = Debug|Win32
+		{203CB372-0747-46BB-A1C9-9ABD2DB249B2}.Release|Win32.ActiveCfg = Release|Win32
+		{203CB372-0747-46BB-A1C9-9ABD2DB249B2}.Release|Win32.Build.0 = Release|Win32
+		{92271E44-6D97-41BD-BE34-E99100E31F7E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{92271E44-6D97-41BD-BE34-E99100E31F7E}.Debug|Win32.Build.0 = Debug|Win32
+		{92271E44-6D97-41BD-BE34-E99100E31F7E}.Release|Win32.ActiveCfg = Release|Win32
+		{92271E44-6D97-41BD-BE34-E99100E31F7E}.Release|Win32.Build.0 = Release|Win32
+		{DD48D723-A6DC-4C5D-A82F-ED97CE51D3AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DD48D723-A6DC-4C5D-A82F-ED97CE51D3AD}.Debug|Win32.Build.0 = Debug|Win32
+		{DD48D723-A6DC-4C5D-A82F-ED97CE51D3AD}.Release|Win32.ActiveCfg = Release|Win32
+		{DD48D723-A6DC-4C5D-A82F-ED97CE51D3AD}.Release|Win32.Build.0 = Release|Win32
+		{21B005A0-975D-4941-BFEF-CD4616571AF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{21B005A0-975D-4941-BFEF-CD4616571AF0}.Debug|Win32.Build.0 = Debug|Win32
+		{21B005A0-975D-4941-BFEF-CD4616571AF0}.Release|Win32.ActiveCfg = Release|Win32
+		{21B005A0-975D-4941-BFEF-CD4616571AF0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LoginGate - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"../_Obj_Debug/LoginGate/LoginGate.res" /d "_DEBUG" "E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\LoginGate.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/LoginGate/" /Fp"../_Obj_Debug/LoginGate/LoginGate.pch" /Yu"stdafx.h" /Fo"../_Obj_Debug/LoginGate/" /Fd"../_Obj_Debug/LoginGate/" /FD /GZ /c 
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\ClientSockMsg.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\ConfigDlgFunc.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\LoginGate.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\MainWndProc.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\Def\Misc.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\Def\RegstryHandler.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\Def\ServerSockHandler.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\ServerSockMsg.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\Def\_OrzEx\syncobj.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\ThreadFuncForComm.cpp"
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\ThreadFuncForMsg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP49.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /FR"../_Obj_Debug/LoginGate/" /Fp"../_Obj_Debug/LoginGate/LoginGate.pch" /Yc"stdafx.h" /Fo"../_Obj_Debug/LoginGate/" /Fd"../_Obj_Debug/LoginGate/" /FD /GZ /c 
+"E:\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\LoginGate\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"../_Bin/Debug/LoginGate.pdb" /debug /machine:I386 /out:"../_Bin/Debug/LoginGate.exe" /pdbtype:sept 
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\ClientSockMsg.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\ConfigDlgFunc.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\LoginGate.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\MainWndProc.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\Misc.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\RegstryHandler.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\ServerSockHandler.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\ServerSockMsg.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\StdAfx.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\syncobj.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\ThreadFuncForComm.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\ThreadFuncForMsg.obj"
+"\mir3_sf\传奇COD\传奇COD1\112347628\mirserver\_Obj_Debug\LoginGate\LoginGate.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientSockMsg.cpp
+ConfigDlgFunc.cpp
+LoginGate.cpp
+MainWndProc.cpp
+Misc.cpp
+RegstryHandler.cpp
+ServerSockHandler.cpp
+ServerSockMsg.cpp
+syncobj.cpp
+ThreadFuncForComm.cpp
+ThreadFuncForMsg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+LoginGate.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
