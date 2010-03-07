@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mir2Ex - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Mir2EI.pdb" /debug /machine:I386 /out:"C:\Mir2EI\Mir2EI.exe" /pdbtype:sept 
+".\Debug\GFun.obj"
+".\Debug\Mir2Ex.obj"
+".\Debug\StdAfx.obj"
+".\Debug\BMWnd.obj"
+".\Debug\Login.obj"
+".\Debug\LoginAvi.obj"
+".\Debug\LoginProcess.obj"
+".\Debug\NewAccount.obj"
+".\Debug\Patch.obj"
+".\Debug\SelectSrv.obj"
+".\Debug\Actor.obj"
+".\Debug\ChatPopWnd.obj"
+".\Debug\ClientSysMsg.obj"
+".\Debug\ExchangeWnd.obj"
+".\Debug\GameBtn.obj"
+".\Debug\GameProc.obj"
+".\Debug\GameWnd.obj"
+".\Debug\GroupPopWnd.obj"
+".\Debug\GroupWnd.obj"
+".\Debug\GuildMasterWnd.obj"
+".\Debug\GuildWnd.obj"
+".\Debug\HorseWnd.obj"
+".\Debug\Interface.obj"
+".\Debug\InventoryWnd.obj"
+".\Debug\Item.obj"
+".\Debug\LightFog.obj"
+".\Debug\Magic.obj"
+".\Debug\MapHandler.obj"
+".\Debug\NPCWnd.obj"
+".\Debug\OptionWnd.obj"
+".\Debug\Particle.obj"
+".\Debug\QuestWnd.obj"
+".\Debug\SprDfn.obj"
+".\Debug\StatusWnd.obj"
+".\Debug\StoreWnd.obj"
+".\Debug\WeatherEffect.obj"
+".\Debug\Button.obj"
+".\Debug\ChatEditBox.obj"
+".\Debug\ClientSocket.obj"
+".\Debug\DblList.obj"
+".\Debug\DLinkedList.obj"
+".\Debug\EnDecode.obj"
+".\Debug\ImageHandler.obj"
+".\Debug\MirButton.obj"
+".\Debug\MirMsgBox.obj"
+".\Debug\MirMsgBox3D.obj"
+".\Debug\MsgBox.obj"
+".\Debug\NoticeBox.obj"
+".\Debug\NPCTxtAnalysis.obj"
+".\Debug\Queue.obj"
+".\Debug\BackGround.obj"
+".\Debug\CharacterProcess.obj"
+".\Debug\CreateChr.obj"
+".\Debug\SelectChr.obj"
+".\Debug\BMMP3.obj"
+".\Debug\MirSound.obj"
+".\Debug\SBuffer.obj"
+".\Debug\Sound.obj"
+".\Debug\Avi.obj"
+".\Debug\Resource.res"
+".\WindHorn\Debug\WindHorn.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B2.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : fatal error LNK1104: cannot open file "d3dim.lib"
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Mir2EI.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
